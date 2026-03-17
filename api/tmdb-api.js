@@ -16,7 +16,7 @@ export default async function handler(request, response) {
     }
 
     // Retrieve the API key from Vercel environment variables
-    const apiKey = process.env.TMDB_API_KEY;
+    const apiKey = process.env.04bde0cd78bd7b5c40db17b3820d592f;
 
     if (!apiKey) {
       console.error('TMDB_API_KEY is not set in environment variables.');
