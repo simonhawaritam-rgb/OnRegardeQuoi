@@ -25,7 +25,7 @@ export default async function handler(request, response) {
 
     // Combine the query parameters from the client with the required API key and language
     const allParams = {
-      api_key: apiKey,
+      api_key: 04bde0cd78bd7b5c40db17b3820d592f ,
       language: 'en-US',
       ...queryParams,
     };
